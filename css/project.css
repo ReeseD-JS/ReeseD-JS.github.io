@@ -1,0 +1,41 @@
+.project {
+    background-color: gold;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 100vw;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+.projectsHeader {
+    order: 1;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 0px;
+
+}
+
+.maybe {
+    order: 2;
+    align-self: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 0px;
+}
+
+
+.harryPotterApi {
+    width: 325px;
+}
+
+.cssCreature {
+    width: 325px;
+}
+
+.staticLayout {
+    width: 325px;
+}
+
+

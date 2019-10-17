@@ -4,12 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Reese's Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:100,300,400,400i,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
+
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="#"><img class="signature" src="./assets/signature.svg"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#aboutMe">About<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="#projectLink">Projects</a>
+            <a class="nav-item nav-link active" href="#contactLink">Contact</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid">
+          <a name="aboutMe"></a>  
+        <p>Learning as I go...Reexplore my page every few weeks to see new projects I'm working on, made with lines of code 
+          I finally wrapped my head around, and displayed with some of my own imagination. In other words, next time you
+        land here, chances are this page will have taken new artistic direction from its curator (me). 
+        
+        If we trace through history we'll find a literal example of our innate function, or desire, as humans to communicate. That's always remained constant, 
+        but the mediums we use to deliver our messages, or artistic expressions, have evolved throughout history; from the cave paintings of the
+        Lascaux Cave in France, to Cuneiform being etched into clay tablets in Mesopotamia, to Gutenberg's Printing Press, to Morse's Telegraph,
+        to Marconi's Radio, to Farnsworth's Television. The Internet as a medium is extraordinary in many regards, but what fascinates me is the ability
+        to change a message. A history textbook can't rewrite itself with current events, an entirely new book must be printed with the updated
+        information. It's the ability to edit, build upon, or even reinvent the original message entirely that excites me; there's a fluidity to message conveying that
+        eluded its technological predecessors.
+
+        I hope you'll discover a parallel as you browse the site. As I said, I'm learning as I go and that's the message I'm trying to convey.
+        At any given point in time this site should reflect what I'm learning 
+
+        
+
+
+        </p>
+      </div>
+
+      <div class="container-fluid project">
+            <div class="projectsHeader">
+                <a name="projectLink">PROJECTS</a>
+            </div>
+            <div class="maybe">
+            <div class="row">
+              <div class="col-sm">
+                <a href="https://reesed-harrypotter-apiproject.firebaseapp.com/" target="_blank"><img class="harryPotterApi" src="./assets/HPthumbnail.png"></a>
+                <p>Here's my first project working with an API</p>
+              </div>
+              <div class="col-sm">
+                <a href="https://codepen.io/RD10/pen/PoYrQWJ"><img class="cssCreature" src="./assets/SpideyThumbnail.png"></a>
+                <p>Here's my first project working with CSS</p>
+              </div>
+              <div class="col-sm">
+                <a href="https://reesed-js.github.io/staticLayout/"><img class="staticLayout" src="./assets/HuluThumbnail.png"></a>
+                <p>Here's my first project working with static layouts</p>
+              </div>
+            </div>
+            </div>
+      </div>
+
+      <div class="contact">
+          <a name="contactLink"></a>
+          <div class="contactHeader" id="conthead">
+              <div class="con1">CONTACT</div>
+
+              <div class="con2">FOR WORK RELATED INQUIRIES PLEASE EMAIL ME, AND I'LL GET BACK TO YOU AS SOON AS POSSIBLE.
+              PLEASE FEEL FREE TO EMAIL ME WITH ANY QUESTIONS, COMMENTS, FEEDBACK, YOU NAME IT!</div>
+
+              <div class="con3">RESUME: 
+              HERE'S A LINK TO A DOWNLOADABLE PDF OF MY RESUME</div>
+          </div>
+          <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/YOUR_EMAIL_HERE" method="post">
+            <fieldset id="fs-frm-inputs">
+              <label for="full-name">Full Name</label>
+              <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+              <label for="email-address">Email Address</label>
+              <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+              <label for="message">Message</label>
+              <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+              <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            </fieldset>
+            <input type="submit" value="Submit">
+          </form>
+      </div>
+
+      <footer>I guess I'll put some more stuff here</footer>
+
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

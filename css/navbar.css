@@ -1,0 +1,31 @@
+.navbar {
+    flex: display;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: pink;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar-brand {
+    margin: 0px;
+    padding: 0px;
+}
+
+.signature {
+    order: 1;
+    min-width: 0;
+    width: 150px;
+    
+}
+
+.navbar-nav {
+    order: 2;
+}
+
+.nav-item {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
