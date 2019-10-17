@@ -11,6 +11,9 @@
 
 .projectsHeader {
     order: 1;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 2.5em;
     padding-left: 15px;
     padding-right: 15px;
     margin-right: 0px;

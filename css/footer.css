@@ -1,6 +1,17 @@
-footer {
+.foot {
+    flex: display;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: space-evenly;
     width: 100vw;
-    height: 75px;
+    height: 125px;
     bottom: 0px;
     background-color: black;
+}
+
+.footie {
+    order: 1;
+    bottom: 0px;
+    min-width: 0px;
+    width: 100px;
 }
