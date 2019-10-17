@@ -17,7 +17,7 @@
 .signature {
     order: 1;
     min-width: 0;
-    width: 150px;
+    width: 200px;
     
 }
 
@@ -29,3 +29,11 @@
     font-family: 'Barlow Condensed', sans-serif;
 }
 
+#p1 {
+    font-size: 2.7em;
+    text-align: center;
+}
+
+#p2 {
+    font-size: .5em;
+}

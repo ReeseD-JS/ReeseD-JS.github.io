@@ -1,6 +1,6 @@
 .foot {
     flex: display;
-    flex-flow: column nowrap;
+    flex-flow: row nowrap;
     justify-content: center;
     align-items: space-evenly;
     width: 100vw;
@@ -14,4 +14,8 @@
     bottom: 0px;
     min-width: 0px;
     width: 100px;
+}
+
+.git {
+    height: 35px;
 }
